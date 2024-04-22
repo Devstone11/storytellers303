@@ -1,6 +1,8 @@
 html {
   font-size: 100%;
   background-color: #F8F9F9;
+  --dark-gray: #757575;
+  --hover-gray: #7a7b7b;
 }
 
 body {
@@ -21,7 +23,7 @@ h2 {
   font-size: 1rem;
   font-weight: 500;
   font-style: italic;
-  color: #757575;
+  color: var(--dark-gray);
   margin: 0rem;
 }
 
@@ -39,7 +41,7 @@ nav {
 }
 
 nav a:hover {
-  color: #7a7b7b;
+  color: var(--hover-gray);
 }
 
 main {
@@ -55,4 +57,13 @@ img {
 
 section {
   margin: 0rem 1.5rem;
+}
+
+a.email {
+  text-decoration: none;
+  color: #6161CB;
+}
+
+a.email:hover {
+  color: #8686C9;
 }
