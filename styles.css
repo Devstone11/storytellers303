@@ -52,3 +52,7 @@ img {
   height: 18rem;
   width: fit-content;
 }
+
+section {
+  margin: 0rem 1.5rem;
+}
