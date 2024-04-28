@@ -23,24 +23,34 @@
     </div>
     <main>
       <img
+        class="singer-backs"
         alt="A drawing of five people singing"
         src="./assets/Hand-drawn-logo.png"
       ></img>
       <section id="about">
         <h3 class="chapter-title">I. About</h3>
-        <p>
-          The Storytellers are a professional a cappella group based in Denver, CO. Since 2016, they've performed at weddings, birthday parties, corporate events, fundraisers, talent competitions, and more; in their own backyards as well as internationally.
-          They perform music from a variety of genres including doo-wop, barbershop, country, and pop throughout the decades. 
-        </p>
-        <p>At every performance, the Storytellers seek to build a community and bring them an experience unlike anything they've heard before.</p>
+        <p>The Storytellers are a professional a cappella group based in Denver, CO. Since 2016, we've performed at weddings, birthday parties, corporate events, fundraisers, talent competitions, and more; in own own backyards as well as internationally.</p>
+        <p>We perform music from a variety of genres including doo-wop, barbershop, country, and pop throughout the decades.</p>
+        <p>At every performance, we seek to build a community and bring them an experience unlike anything they've heard before.</p>
       </section>
       <section id="explore">
         <h3 class="chapter-title">II. Explore</h3>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+        <p>Check out our social media accounts for our most recent videos and news about upcoming shows!</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/storytellers303/" target="_blank">
+            <img alt="Link to Instagram page" src="./assets/ig_logo.png" />
+          </a>
+          <a href="https://www.youtube.com/@storytellers303/" target="_blank">
+            <img alt="Link to Youtube page" src="./assets/yt_logo.png" />
+          </a>
+          <a href="https://www.facebook.com/storytellers303" target="_blank">
+            <img alt="Link to Facebook page" src="./assets/fb_logo.png" />
+          </a>
+        </div>
       </section>
       <section id="contact">
         <h3 class="chapter-title">III. Contact</h3>
-        <p>Whether you're interested in hiring the Storytellers or joining their ranks, they look forward to hearing from you! Please send an e-mail to 
+        <p>Whether you're interested in hiring the Storytellers or joining our ranks, we look forward to hearing from you! Please send an e-mail to 
             <a
               class="email"
               href="mailto:thestorytellers303@gmail.com"
@@ -49,5 +59,10 @@
         </p>
       </section>
     </main>
+    <footer id="storytellers-copyright-footer"></footer>
   </body>
+  <script type="text/javascript">
+    const year = (new Date()).getFullYear();
+    document.getElementById("storytellers-copyright-footer").innerHTML = `Copyright &copy; ${year} Storytellers LLC`;
+  </script>
 </html>

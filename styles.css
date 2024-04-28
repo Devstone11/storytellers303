@@ -50,13 +50,27 @@ main {
   align-items: center;
 }
 
-img {
+img.singer-backs {
   height: 18rem;
   width: fit-content;
 }
 
 section {
   margin: 0rem 1.5rem;
+}
+
+div.social-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.social-links img {
+  height: 3rem;
+}
+
+section#contact {
+  margin-bottom: 1.5rem;
 }
 
 a.email {
@@ -66,4 +80,12 @@ a.email {
 
 a.email:hover {
   color: #8686C9;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+  font-size: .75rem;
+  padding: 0.3rem;
 }
