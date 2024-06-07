@@ -102,6 +102,10 @@ a.email:hover {
 }
 
 footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+
   display: flex;
   justify-content: center;
   background-color: gainsboro;
